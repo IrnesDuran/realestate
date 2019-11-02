@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #'pages.apps.PagesConfig', is it necesarry as tutorial showed?
     'pages',
+    'listings',
+    'realtors',
 ]
 
 MIDDLEWARE = [
