@@ -1,0 +1,16 @@
+{% extends 'admin/base.html'%}
+{% load static %}
+
+
+<!-- block for putting logo and custom text instead Django Admin -->
+{% block branding %}
+
+<h1 id="head">
+  <img src="{% static "img/logo4.png" %}" alt="DI Real Estate" class="brand_img" height ="50" width="80">
+  Admin Area
+</h1>
+{% endblock %}
+<!-- block for customizing style of django admin defaults -->
+{% block extrastyle %}
+  <link rel="stylesheet" href="{% static "css/admin.css" %}">
+{% endblock %}
