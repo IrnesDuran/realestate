@@ -80,8 +80,13 @@ WSGI_APPLICATION = 'dire.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'diredb',
+        'USER': 'postgres',
+        'PASSWORD': 'xxxxxx',
+        'HOST': 'localhost'
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
