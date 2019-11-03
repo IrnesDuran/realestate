@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # we want decimals on listing prices
+    'django.contrib.humanize',
     #'pages.apps.PagesConfig', is it necesarry as tutorial showed?
     'pages',
     'listings',
