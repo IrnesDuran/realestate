@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'pages',
     'listings',
     'realtors',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -85,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'diredb',
         'USER': 'postgres',
-        'PASSWORD': 'durirn85',
+        'PASSWORD': 'xxxxxx',
         'HOST': 'localhost'
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
@@ -137,3 +138,10 @@ STATICFILES_DIRS = [
 # Media Folder settings
 MEDIA_ROOT = os.path.join (BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+
+#messages
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger'
+}

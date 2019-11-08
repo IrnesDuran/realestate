@@ -34,10 +34,10 @@ state_choices={
 "SBK": "Srednjebosanski Kanton",
 "HNK": "Hercegovačko-neretvanski Kanton",
 "ZHK": "Zapadno-hercegovački Kanton",
-"LVK":"Livanjski Kanton",
+"LVK": "Livanjski Kanton",
 "BLR": "Banjalučka regija",
 "DBR": "Dobojsko-Bijeljinska regija",
 "SZR": "Sarajevsko-Zvornička regija",
 "TFR": "Trebinjsko-Fočanska regija",
-"DIB": "Distrikt  Brčko"
+"DIB": "Distrikt  Brčko",
 }
