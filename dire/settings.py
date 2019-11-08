@@ -85,7 +85,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'diredb',
         'USER': 'postgres',
-        'PASSWORD': 'durirn85',
+        'PASSWORD': 'xxxxxx',
         'HOST': 'localhost'
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
