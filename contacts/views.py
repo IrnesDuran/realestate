@@ -32,7 +32,7 @@ def contact(request):
         send_mail(
             'Testing backend real estate project',
             'You have been provided with inquiry for '+ listing +'. Please check it out in admin area.',
-            'duran_bass@hotmail.com',
+            'dilearnstocode@hotmail.com',
             ['duran.irnes@gmail.com'],
             fail_silently=False,
             )

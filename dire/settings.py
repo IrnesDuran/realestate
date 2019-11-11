@@ -87,10 +87,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'diredb',
         'USER': 'postgres',
-        'PASSWORD': 'xxxxxx',
+        'PASSWORD': '123456',
         'HOST': 'localhost'
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
@@ -151,6 +151,6 @@ MESSAGE_TAGS = {
 #email PagesConfig
 EMAIL_HOST = 'smtp-mail.outlook.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER ='duran_bass@hotmail.com'
-EMAIL_HOST_PASSWORD ='xxxxxx'
+EMAIL_HOST_USER ='dilearnstocode@hotmail.com'
+EMAIL_HOST_PASSWORD ='Mycoding2019'
 EMAIL_USE_TLS = True
