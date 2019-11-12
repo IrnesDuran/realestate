@@ -154,3 +154,9 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER ='dilearnstocode@hotmail.com'
 EMAIL_HOST_PASSWORD ='Mycoding2019'
 EMAIL_USE_TLS = True
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
+
